@@ -1,0 +1,89 @@
+/*-------------------------*/
+/*mainは組み合わせるときに消す*/
+main {
+  text-align: center;
+  background-color: #dd2c00; 
+}
+/*↑ここが消えていればOK*/
+/*ここでまとめて設定*/
+
+
+#board {
+  padding-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #c51162;
+  border-radius: 10px;  
+  
+  h2 {
+    color: #ffd740;
+    text-align: left;
+    font-size: 200%;
+    margin-left: 10%;
+  }
+  .wrap.one {
+  }
+  
+  .flex.two {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .board_img {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-position: center;
+    background-color: white;
+  }  
+}
+
+/*sectionごとに設定*/
+
+#board > .wrap.one > section.one {
+  p.one {
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 80%;
+    text-align: right;
+    color: white;
+  }
+
+  p.two {
+    background-color: #ffd740;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius: 10px;
+    line-height: 30px;
+    font-size: 80%;
+    color: red;
+  }  
+}
+
+#board > .wrap.one > section.two {
+  background-color: #dd2c00;
+  margin-left: 5%;
+  margin-right: 5%;    
+}
+
+
+
+
+#board > .flex.two > section.one,
+#board > .flex.two > section.two,
+#board > .flex.two > section.three {
+  flex: 1;
+  background-color: #dd2c00;
+  margin-right: 1%;
+}
+
+#board > .flex.two > section.four {
+  flex: 1;
+  background-color: #dd2c00;
+}
+
+
+/*-------------------------*/
+
+  

@@ -1,6 +1,10 @@
 @charset "utf-8";
-@import "normalize";
+//@import "normalize";
+@import "header";
+@import "board";
+@import "footer";
 
+/*
 body {
   background: #ECC561;
   text-align: center;
@@ -65,3 +69,5 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+*/

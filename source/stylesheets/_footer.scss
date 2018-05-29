@@ -1,43 +1,41 @@
 /*--------------footer------------------*/
 /*まとめて設定*/
 footer {
-  text-align: center;
-  background-color: black; 
-
-  small {
-    display: block;
-    color: white;
-    background-color: black;
-  }  
-}
-
-
-footer > .wrap > section.one {
-  padding-top: 25vh;
-  padding-bottom: 25vh;
-  background-color: #313131;  
-  color: white;
-  text-align: center;
-
-    a{
-        color: #313131;
-        border: 1px white;
-        background-color: white;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 30px;
-        padding-left: 30px;
-        border-radius: 5px;
-        letter-spacing: 5px;
-        text-decoration: none;
-    }
-    a:hover{
-        background-color: #313131;
-        border: 1px solid #313131;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        transition: all 0.5s;
+    text-align: center;
+    background-color: black; 
+    
+    small {
+        display: block;
         color: white;
-        overflow: hidden;
-    }
+        background-color: black;
+    }  
+    section {
+        padding-top: 25vh;
+        padding-bottom: 25vh;
+        background-color: #313131;  
+        color: white;
+        text-align: center;
+    
+        a{
+            color: #313131;
+            border: 1px white;
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+            border-radius: 5px;
+            letter-spacing: 5px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #313131;
+            border: 1px solid #313131;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+            color: white;
+            overflow: hidden;
+        }
+    }    
 }

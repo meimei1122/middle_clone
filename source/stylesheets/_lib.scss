@@ -1,0 +1,30 @@
+//ルールここをライブラリとして扱う
+//変数には_を使いクラス名には-を使う
+
+//色の変数命名規則
+//base => メインとなる色
+//bar =>
+$common_color: (
+    bar: #424242,
+    main: gray
+);
+
+
+//画像のサイズとか基本設定
+@mixin image_config {
+    display: block;
+    background-repeat: no-repeat;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+/*
+@include main-text;
+background-size:contain;
+margin-top: 5%;
+margin-left: 3%;
+height: 40vh;
+background-position: center;
+background-image: map-get($header_image, title);
+*/

@@ -1,8 +1,17 @@
 @charset "utf-8";
 //@import "normalize";
+@import "lib";
 @import "header";
 @import "board";
 @import "footer";
+
+body {
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
 
 /*
 body {
